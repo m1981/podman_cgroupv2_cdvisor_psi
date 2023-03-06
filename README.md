@@ -33,7 +33,7 @@ Following certain structural constraints, controllers may be enabled or disabled
 `https://docs.kernel.org/admin-guide/cgroup-v2.html`
 `https://wiki.archlinux.org/title/cgroups`
 
-Check cgroup version used by kernel
+## Check cgroup version used by kernel
 `systemctl status`
 
 # Mini project: cute-micro-servers.com
@@ -90,3 +90,46 @@ sudo chmod 4755 /usr/bin/newuidmap
 michal@C-5CG1145GM9:~$ mount | grep cgro
 tmpfs on /sys/fs/cgroup type tmpfs (rw,nosuid,nodev,noexec,relatime,mode=755)
 cgroup2 on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+
+
+# Reference
+
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html  
+https://www.redhat.com/sysadmin/fedora-31-control-group-v2  
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cgroups.html  
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cpuacct.html  
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/cpusets.html  
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v1/blkio-controller.html  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-relationships_between_subsystems_hierarchies_control_groups_and_tasks  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-implications_for_resource_management  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch-using_control_groups  
+https://www.redhat.com/en/blog/world-domination-cgroups-rhel-8-welcome-cgroups-v2  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-1-cgroup-basics  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-2-turning-knobs  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-3-thanks-memories  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-4-all-ios  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-5-hand-rolling-your-own-cgroup  
+https://www.redhat.com/en/blog/world-domination-cgroups-part-6-cpuset  
+https://rootlesscontaine.rs/getting-started/common/subuid/  
+https://rootlesscontaine.rs/getting-started/common/cgroup2/  
+https://rootlesscontaine.rs/getting-started/common/sysctl/  
+https://askubuntu.com/questions/1442826/systemd-in-degraded-state-after-enabling-in-wsl  
+https://www.freedesktop.org/software/systemd/man/systemd.unit.html  
+https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/  
+https://adil.medium.com/how-to-monitor-server-via-psi-pressure-stall-information-and-cgroupv2-2d944a9e732e  
+https://systemd.io/CGROUP_DELEGATION/  
+https://www.kernel.org/doc/html/latest/admin-guide/cgroup-v2.html  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch01  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/sec-relationships_between_subsystems_hierarchies_control_groups_and_tasks  
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/resource_management_guide/ch-subsystems_and_tunable_parameters  
+https://www.redhat.com/en/blog/world-domination-cgroups-rhel-8-welcome-cgroups-v2  
+https://facebookmicrosites.github.io/cgroup2/docs/overview.html  
+https://www.steamship.com/build/langchain-apps  
+https://learn.microsoft.com/en-us/windows/wsl/wsl-config  
+https://rootlesscontaine.rs/getting-started/common/subuid/  
+https://oldgitops.medium.com/setting-up-podman-on-wsl2-in-windows-10-be2991c2d443  
+https://rootlesscontaine.rs/getting-started/common/cgroup2/  
+
+
+
