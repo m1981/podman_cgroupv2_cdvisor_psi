@@ -31,6 +31,10 @@ cgroups form a tree structure and every process in the system belongs to one and
 
 Following certain structural constraints, controllers may be enabled or disabled selectively on a cgroup. All controller behaviors are hierarchical - if a controller is enabled on a cgroup, it affects all processes which belong to the cgroups consisting the inclusive sub-hierarchy of the cgroup. When a controller is enabled on a nested cgroup, it always restricts the resource distribution further. The restrictions set closer to the root in the hierarchy can not be overridden from further away.  
 `https://docs.kernel.org/admin-guide/cgroup-v2.html`
+`https://wiki.archlinux.org/title/cgroups`
+
+Check cgroup version used by kernel
+`systemctl status`
 
 # Mini project: cute-micro-servers.com
 tbs
