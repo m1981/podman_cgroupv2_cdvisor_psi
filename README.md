@@ -6,9 +6,21 @@ There are currently 6 namespaces: ● mnt (mount points, filesystems) ● pid (p
 User ID
 Group ID
 
-# Creating your own “Docker” like tool using unshare?
-tbd
+# What is CRI
+# What is runc, crun etc.
+# What is OCI?
+# Why Docker has deemon?
+# Why podman is deamonless?
+
+# Hands on: Creating your own “Docker” like tool?
+tbd  
+```unshare --user --pid --map-root-user --mount-proc --fork bash```  
+https://www.nginx.com/blog/what-are-namespaces-cgroups-how-do-they-work/  
+sdsd
+
 # How does chroot work?
+show based on fedora root filesystem from this article
+
 tbd
 # What are cgroups
 
@@ -29,6 +41,9 @@ Do steps from this page
 https://rootlesscontaine.rs/getting-started/common/login/
 
 If /sys/fs/cgroup/cgroup.controllers is present on your system, you are using v2, otherwise you are using v1.
+
+
+
 
 # Commands
 
