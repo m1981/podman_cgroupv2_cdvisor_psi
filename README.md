@@ -40,6 +40,13 @@ Following certain structural constraints, controllers may be enabled or disabled
 tbs
 
 # Podman as alternative to Docker
+### Rootles with same user/group IDs as current user
+[Rootles Explained](https://www.tutorialworks.com/podman-rootless-volumes)
+
+Use flag `-userns=keep-id`
+
+Example:
+`$ podman run -ti --userns=keep-id  localhost/ansible:5 bash`
 
 ## Why rootless containers?
 tbd
