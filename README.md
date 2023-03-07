@@ -136,7 +136,8 @@ https://www.steamship.com/build/langchain-apps
 https://learn.microsoft.com/en-us/windows/wsl/wsl-config  
 https://rootlesscontaine.rs/getting-started/common/subuid/  
 https://oldgitops.medium.com/setting-up-podman-on-wsl2-in-windows-10-be2991c2d443  
-https://rootlesscontaine.rs/getting-started/common/cgroup2/  
+https://rootlesscontaine.rs/getting-started/common/cgroup2/
+https://www.grant.pizza/blog/understanding-cgroups/
 
 
 
